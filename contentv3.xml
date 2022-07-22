@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="Objeto de aprendizaje"></unicode>
+  <unicode value="Recurso Multimedia sobre las Funciones en JavaScript"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -19,7 +19,7 @@
   <string role="key" value="_contextPlace"></string>
   <unicode value="classroom"></unicode>
   <string role="key" value="_description"></string>
-  <unicode value="Objeto de aprendizaje sobre las funciones en JavaScript"></unicode>
+  <unicode value="Recurso Multimedia sobre las funciones en JavaScript creado mediante eXeLearning"></unicode>
   <string role="key" value="_docType"></string>
   <unicode value="HTML5"></unicode>
   <string role="key" value="_exportElp"></string>
@@ -191,7 +191,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="225"></int>
+                  <int value="232"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -205,7 +205,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="19_113_2.1"></unicode>
+                <unicode value="19_113_2.3"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -216,7 +216,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="funciones-en-javascript-t2.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\hrldl\\appdata\\local\\temp\\tmphi9trc\\funciones-en-javascript-t2.png"></string>
+                  <string value="c:\\users\\hrldl\\appdata\\local\\temp\\tmpayuzqb\\funciones-en-javascript-t2.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="8556809291635812f283f0a287f27f30"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -245,7 +245,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="2"></int>
+           <int value="4"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -397,7 +397,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="229"></int>
+                     <int value="233"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -411,7 +411,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="0_112_2.0"></unicode>
+                   <unicode value="0_112_2.2"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="9">
                     <dictionary>
@@ -422,7 +422,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="imagen2.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\hrldl\\appdata\\local\\temp\\tmpy7yc4y.eXe\\previews\\allyourbase\\imagen2.png"></string>
+                     <string value="c:\\users\\hrldl\\appdata\\local\\temp\\tmpayuzqb\\imagen2.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="8e7bd00c528382e95c62531a92549dd6"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -451,7 +451,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="1"></int>
+              <int value="3"></int>
               <string role="key" value="parentNode"></string>
               <reference key="8"></reference>
              </dictionary>
@@ -2071,7 +2071,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="36"></reference>
+  <reference key="8"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2084,7 +2084,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
     <string role="key" value="date"></string>
     <unicode value=""></unicode>
     <string role="key" value="description"></string>
-    <unicode value="Objeto de aprendizaje sobre las funciones en JavaScript"></unicode>
+    <unicode value="Recurso Multimedia sobre las funciones en JavaScript creado mediante eXeLearning"></unicode>
     <string role="key" value="format"></string>
     <unicode value=""></unicode>
     <string role="key" value="identifier"></string>
@@ -2102,7 +2102,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="Objeto de aprendizaje"></unicode>
+    <unicode value="Recurso Multimedia sobre las Funciones en JavaScript"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -2329,7 +2329,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
             <string role="key" value="language"></string>
             <string value="en"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="Objeto de aprendizaje sobre las funciones en JavaScript"></string>
+            <string value="Recurso Multimedia sobre las funciones en JavaScript creado mediante eXeLearning"></string>
            </dictionary>
           </instance>
          </list>
@@ -2388,7 +2388,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
            <string role="key" value="language"></string>
            <string value="en"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Objeto de aprendizaje"></string>
+           <string value="Recurso Multimedia sobre las Funciones en JavaScript"></string>
           </dictionary>
          </instance>
         </list>
@@ -2836,7 +2836,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
             <string role="key" value="language"></string>
             <string value="en"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="Objeto de aprendizaje sobre las funciones en JavaScript"></string>
+            <string value="Recurso Multimedia sobre las funciones en JavaScript creado mediante eXeLearning"></string>
            </dictionary>
           </instance>
          </list>
@@ -2895,7 +2895,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
            <string role="key" value="language"></string>
            <string value="en"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Objeto de aprendizaje"></string>
+           <string value="Recurso Multimedia sobre las Funciones en JavaScript"></string>
           </dictionary>
          </instance>
         </list>
