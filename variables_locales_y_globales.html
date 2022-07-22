@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Variables Locales y Globales | Objeto de aprendizaje </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Ing. Harold Liriano" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-8"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">Objeto de aprendizaje</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Funciones en el Lenguaje de Programación JavaScript</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="caractersticas_de_las_funciones.html" class="no-ch">Características de las Funciones</a></li>
+   <li><a href="argumentos_de_las_funciones.html" class="no-ch">Argumentos de las Funciones</a></li>
+   <li><a href="sentencia_return.html" class="no-ch">Sentencia Return</a></li>
+   <li id="active"><a href="variables_locales_y_globales.html" class="active no-ch">Variables Locales y Globales</a></li>
+   <li><a href="actividad_sobre_las_funciones.html" class="no-ch">Actividad sobre las Funciones</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="sentencia_return.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="actividad_sobre_las_funciones.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Variables Locales y Globales</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_share" id="id11">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_share.png)"><h1 class="iDeviceTitle">Concepto de Variables Locales y Globales</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta11_123_2" class="block iDevice_content">
+<div class="exe-text"><p>Ahora que sabes cómo crear funciones que encierran bloques de código, tenemos que hablar de un concepto importante: variables locales frente a variables globales.</p>
+<p>Cuando declaramos una nueva variable dentro de una función, decimos que es local para esa función. Eso es porque solo esa función puede ver esa variable. El resto del programa fuera de la función no puede verla. Una vez que estamos fuera de esa función, es como si ya no existiera.</p>
+<p>Cada lenguaje de programación es diferente, pero para JavaScript, es importante saber que las variables tienen un "ámbito de la función": una función puede ver las variables locales que fueron declaradas dentro de ella y las variables globales que fueron declaradas fuera de ella, pero no puede ver las variables locales dentro de otras funciones.</p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_stars" id="id12">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_stars.png)"><h1 class="iDeviceTitle">Ejemplo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta12_124_2" class="block iDevice_content">
+<div class="exe-text"><p>En la siguiente función de ejemplo, resultado es una variable local:</p>
+<p><strong><span style="color: #000080;">function</span> <span style="color: #ff9900;">sumar</span><span style="color: #ff6600;">(</span><span style="color: #337fd6;">num1</span>, <span style="color: #337fd6;">num2</span><span style="color: #ff6600;">) {</span></strong><br /><strong><span style="color: #000080;">var</span> <span style="color: #337fd6;">resultado</span> = <span style="color: #337fd6;">num1</span> + <span style="color: #337fd6;">num2</span>;</strong><br /><strong><span style="color: #337fd6;">document</span>.<span style="color: #ff9900;">write</span><span style="color: #ff6600;">(</span>"<span style="color: #993300;">El resultado local es:</span> " + <span style="color: #337fd6;">resultado</span><span style="color: #ff6600;">)</span>;</strong><br /><strong><span style="color: #800080;">return</span> <span style="color: #337fd6;">resultado</span>;</strong><br /><span style="color: #ff6600;"><strong>}</strong></span><br /><strong><span style="color: #ff9900;">sumar</span><span style="color: #ff6600;">(</span>5, 7<span style="color: #ff6600;">)</span>;</strong><br /><strong><span style="color: #337fd6;">document</span>.<span style="color: #ff9900;">write</span><span style="color: #ff6600;">(</span><span style="color: #337fd6;">resultado</span><span style="color: #ff6600;">)</span>; <span style="color: #008000;">// ¡ERROR, la variable es local!</span></strong></p>
+<p>Cuando ejecutemos ese código, obtendremos un error en la última línea: "resultado is not defined". La variable solo está definida dentro de la función, porque es donde la declaramos con la línea var resultado = y no está definida fuera de ella.</p>
+<p>Cuando declaramos una variable fuera de nuestras funciones, decimos que es una variable global. Esto es porque todas las funciones pueden acceder a ella y hacer lo que quieran con ella.</p>
+<p><strong><span style="color: #000080;">var</span> <span style="color: #337fd6;">globalResult</span>;</strong></p>
+<p><strong><span style="color: #000080;">function</span> <span style="color: #ff9900;">sumar</span><span style="color: #ff6600;">(</span><span style="color: #337fd6;">num1</span>, <span style="color: #337fd6;">num2</span><span style="color: #ff6600;">) {</span></strong><br /><strong>       <span style="color: #337fd6;">globalResult</span> = <span style="color: #337fd6;">num1</span> + <span style="color: #337fd6;">num2</span>;</strong><br /><strong>       <span style="color: #337fd6;">document</span>.<span style="color: #ff9900;">write</span><span style="color: #ff6600;">(</span>"<span style="color: #993300;">El resultado global es:</span> " + <span style="color: #337fd6;">globalResult</span><span style="color: #ff6600;">)</span>;</strong><br /><strong>}</strong><br /><strong><span style="color: #ff9900;">sumar</span><span style="color: #ff6600;">(</span>5, 7<span style="color: #ff6600;">)</span>;</strong><br /><strong><span style="color: #337fd6;">document</span>.<span style="color: #ff9900;">write</span><span style="color: #ff6600;">(</span><span style="color: #337fd6;">globalResult</span><span style="color: #ff6600;">)</span>;</strong></p>
+<p>Cuando ejecutemos el código del ejemplo de arriba, no obtendremos ningún error, porque declaramos globalResult fuera de la función, así que podemos acceder a ella cuando queramos.<br /><br /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="free-software">
+<p><span>License: </span> free software license EUPL</p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="sentencia_return.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="actividad_sobre_las_funciones.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
